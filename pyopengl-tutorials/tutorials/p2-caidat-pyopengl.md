@@ -14,12 +14,17 @@ Thời gian: Ngày 22 tháng 11 năm 2016
 			
 		![](https://raw.githubusercontent.com/h3int2um/pyopengl/master/pyopengl-tutorials/images/caidat-pyopengl-ubuntu.png)
 		
-	+ Kiểm tra cài đặt: gõ các lệnh sau, nếu không báo lỗi nghĩa là cài đặt thành công.
+	+ Kiểm tra cài đặt: gõ các lệnh sau, nếu không báo lỗi nghĩa là cài đặt thành công. 
+	Trong trường hợp này phiên bản cài đặt là `3.0.2`.
 	
 			$ python
 			
 			>>> from OpenGL.GL import *
 			
 			>>> from OpenGL.GLU import *
+			
+			>>> OpenGL.__version__
+			
+			'3.0.2'
 		
 		![](https://raw.githubusercontent.com/h3int2um/pyopengl/master/pyopengl-tutorials/images/kiemtra-caidat-pyopengl.png)
